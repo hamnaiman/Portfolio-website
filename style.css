@@ -56,26 +56,6 @@ body {
     opacity: 0;
 
 }
-
-.hire-me:hover {
-    background-color: #00c8ff;
-    transform: scale(1.05);
-}
-
-.header img {
-    width: 250px;
-    ;
-    height: 250px;
-    border-radius: 50%;
-    border: 5px solid #ffcc33;
-    transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.header img:hover {
-    transform: scale(1.1);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-}
-
 .nav ul {
     font-weight: 500;
     list-style: none;
@@ -91,7 +71,6 @@ body {
     margin: 0 15px;
 
 }
-
 .nav ul li a {
     color: white;
     text-decoration: none;
@@ -101,13 +80,16 @@ body {
     justify-content: center;
     /* border-bottom: 2px solid #0ff; */
 }
-
 .nav ul li a:hover {
     color: #0ff;
     transform: scale(1.1);
     border-bottom: 2px solid #0ff;
 }
-
+.navbar-toggler{
+    color: #0ff;
+    transform: scale(1.1);
+    border-bottom: 2px solid #0ff;
+}
 .heading1 {
     color: #0ff;
 }
@@ -666,5 +648,27 @@ i:hover {
     .header img {
         margin: 0 auto;
         display: block;
+    }
+}
+@media (min-width: 1000px) and (max-width: 1999px) {
+    .container {
+        width: 100%; 
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .header-content {
+        text-align: center; 
+    }
+}
+@media (min-width: 250px) and (max-width: 450px) {
+    .container {
+        width: 100%; 
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .header-content {
+        text-align: center; 
     }
 }
