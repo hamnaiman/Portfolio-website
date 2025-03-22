@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const cvUrl = "Mern stack Developer HAMNA IMAN.cv.docx.pdf"; // Ensure filename matches exactly
             const link = document.createElement("a");
             link.href = cvUrl;
-            link.download = "MERN-Stack-Developer-CV.docx"; // Set a clean download name
+            link.download = "Mern stack Developer HAMNA IMAN.cv.docx.pdf"; // Set a clean download name
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
